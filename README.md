@@ -14,8 +14,12 @@ Clone project from github and start it from concole (example for Windows 7):
 python lang_frequency.py # or python3 maybe
 ```
 ```bash
-filepath of file
+Filepath of file
 ```
+```bash
+Count of most frequent words
+```
+
 # Output example
 
 List of 10 frequent words:
