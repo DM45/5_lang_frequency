@@ -14,13 +14,13 @@ def get_most_frequent_words(text, top_count):
     words = re.findall(r'\w+', text.lower())
     most_freq_words = [
         word[0] for word in
-        Counter(words).most_common(top_count)]
+        Counter(words).most_common(int(top_count))]
     return ' '.join(most_freq_words)
 
 
 if __name__ == '__main__':
     _filepath = input('Enter filepath to file: ')
-    _top_count = int(input('Enter count of top words: '))
+    _top_count = input('Enter count of most frequent words: ')
     _load_data = load_data(_filepath)
-    print('List of ' + str(_top_count) + ' frequent words: ')
+    print('List of ' + _top_count + ' frequent words: ')
     print(get_most_frequent_words(_load_data, _top_count))
