@@ -1,6 +1,26 @@
 # Frequency Analysis of Words
 
-[TODO. There will be project description]
+Check most frequent words in text file.
+
+# Requirements
+
+Python 3.5
+
+# Quickstart
+
+Clone project from github and start it from concole (example for Windows 7):
+
+```bash
+python lang_frequency.py # or python3 maybe
+```
+```bash
+filepath of file
+```
+# Output example
+
+List of 10 frequent words:
+
+qwqw sadasx ssss wqs fds qwesadas medss smetewr xxx ttested
 
 # Project Goals
 
