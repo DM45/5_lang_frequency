@@ -22,7 +22,7 @@ Count of most frequent words
 
 # Output example
 
-List of 10 frequent words:
+List of frequent words:
 
 qwqw sadasx ssss wqs fds qwesadas medss smetewr xxx ttested
 
