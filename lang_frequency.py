@@ -11,14 +11,14 @@ def load_data(filepath):
 
 
 def validation_data(loaded_data, digit_check):
-    valid_error = 0
+    validate_error = 0
     if loaded_data is None:
         print('Wrong filepath or wrong filename')
-        valid_error = 1
+        validate_error = 1
     if not digit_check.isdigit():
-        valid_error = 1
+        validate_error = 1
         print('Wrong count')
-    if not valid_error:
+    if not validate_error:
         return 1
 
 
